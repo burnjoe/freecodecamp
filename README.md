@@ -25,4 +25,11 @@ In this certification program, I delved into the fundamental languages used by d
 
 
 ## About
-![Static Badge](https://img.shields.io/badge/freeCodeCamp-freeCodeCamp?style=for-the-badge&logo=freeCodeCamp&logoColor=white&labelColor=%230A0A21&color=%2303030a&link=https%3A%2F%2Fwww.freecodecamp.org%2F)
+<a href="https://www.freecodecamp.org/" target="_blank">
+    <img
+            align="center"
+            src="https://img.shields.io/badge/freeCodeCamp-freeCodeCamp?style=for-the-badge&logo=freeCodeCamp&logoColor=white&labelColor=%230A0A21&color=%2303030a
+            "
+            alt="freeCodeCamp"
+    />
+</a>
