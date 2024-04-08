@@ -15,6 +15,6 @@ A survey form to collect data from its users.
 
 
 ## Technologies Used
-![Static Badge](https://img.shields.io/badge/HTML5-HTML5?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=%23a82200&color=rgb(220%2C74%2C37))
-![Static Badge](https://img.shields.io/badge/CSS3-CSS3?style=for-the-badge&logo=CSS3&logoColor=white&labelColor=%230429b0&color=%23254ADC)
+![Static Badge](https://img.shields.io/badge/HTML5-HTML5?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=rgb(220%2C74%2C37)&color=%23a82200)
+![Static Badge](https://img.shields.io/badge/CSS3-CSS3?style=for-the-badge&logo=CSS3&logoColor=white&labelColor=%23254ADC&color=%230429b0)
 
