@@ -1,21 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">A short explanation</p>
     <form id="survey-form">
-        <fieldset>
-            <label for="name"></label>
-            <input id="name" type="text" name="name" required>
-            <label for="email"></label>
-            <input id="email" type="email" name="email" required>
-        </fieldset>
+      <!-- Name -->
+      <div>
+        <label id="name-label" for="name">Name</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label id="email-label" for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+        />
+      </div>
+
+      <!-- Age -->
+      <div>
+        <label id="number-label" for="number">Age (optional)</label>
+        <input
+          id="number"
+          type="number"
+          name="number"
+          min="1"
+          max="150"
+          placeholder="Age"
+        />
+      </div>
+
+      <!-- Current Education Level -->
+      <div>
+        <label for="dropdown">What is your current level of education?</label>
+        <select name="dropdown" id="dropdown">
+          <option value="" disabled selected>Select a role</option>
+          <option value="1">High School</option>
+          <option value="2">Senior High School</option>
+          <option value="3">Undergraduate (College)</option>
+          <option value="4">Graduate Studies</option>
+        </select>
+      </div>
+
+      <!-- Skill Level -->
+      <div>
+        <p>What do you think your skill level in programming?</p>
+        <input id="novice" type="radio" name="level" checked />
+        <label for="novice">Novice</label>
+        <input id="intermediate" type="radio" name="level" />
+        <label for="intermediate">Intermediate</label>
+        <input id="proficient" type="radio" name="level" />
+        <label for="proficient">Proficient</label>
+        <input id="advanced" type="radio" name="level" />
+        <label for="advanced">Advanced</label>
+        <input id="expert" type="radio" name="level" />
+        <label for="expert">Expert</label>
+      </div>
+
+      <!-- Programming Languages -->
+      <div>
+        <p>Which programming languages do you know?</p>
+        <input id="c" type="checkbox" name="languages[]" value="c" />
+        <label for="c">C</label>
+        <input id="c-plus" type="checkbox" name="languages[]" value="c-plus" />
+        <label for="c-plus">C++</label>
+        <input id="c-sharp" type="checkbox" name="languages[]" value="c-sharp" />
+        <label for="c-sharp">C#</label>
+        <input id="python" type="checkbox" name="languages[]" value="python" />
+        <label for="python">Python</label>
+        <input id="java" type="checkbox" name="languages[]" value="java" />
+        <label for="java">Java</label>
+        <input id="javascript" type="checkbox" name="languages[]" value="javascript" />
+        <label for="javascript">Javascript</label>
+        <input id="php" type="checkbox" name="languages[]" value="php" />
+        <label for="php">PHP</label>
+        <input id="php" type="checkbox" name="languages[]" value="php" />
+        <label for="php">PHP</label>
+        <input id="sql" type="checkbox" name="languages[]" value="sql" />
+        <label for="sql">SQL</label>
+      </div>
+
+      <!-- Comments or Suggestions -->
+      <div>
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea
+          id="comments"
+          name="comments"
+          cols="30"
+          rows="3"
+          placeholder="Enter your comments or suggestions here..."
+        ></textarea>
+      </div>
+
+      <!-- Submit -->
+      <input type="submit" value="Submit" />
     </form>
-    
-</body>
+  </body>
 </html>
