@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">A short explanation</p>
+    <h1 id="title">Programming Enthusiasm Survey</h1>
+    <p id="description">Thank you for participating in this survey! Your feedback will help us better understand what aspects of programming students enjoy the most.</p>
     <form id="survey-form">
       <!-- Name -->
-      <div>
+      <div class="form-group">
         <label id="name-label" for="name">Name</label>
         <input
           id="name"
@@ -22,7 +23,7 @@
       </div>
 
       <!-- Email -->
-      <div>
+      <div class="form-group">
         <label id="email-label" for="email">Email</label>
         <input
           id="email"
@@ -34,7 +35,7 @@
       </div>
 
       <!-- Age -->
-      <div>
+      <div class="form-group">
         <label id="number-label" for="number">Age (optional)</label>
         <input
           id="number"
@@ -47,10 +48,10 @@
       </div>
 
       <!-- Current Education Level -->
-      <div>
+      <div class="form-group">
         <label for="dropdown">What is your current level of education?</label>
         <select name="dropdown" id="dropdown">
-          <option value="" disabled selected>Select a role</option>
+          <option value="" disabled selected>Select an option</option>
           <option value="1">High School</option>
           <option value="2">Senior High School</option>
           <option value="3">Undergraduate (College)</option>
@@ -59,57 +60,151 @@
       </div>
 
       <!-- Skill Level -->
-      <div>
-        <p>What do you think your skill level in programming?</p>
-        <input id="novice" type="radio" name="level" value="novice" checked />
-        <label for="novice">Novice</label>
-        <input id="intermediate" type="radio" name="level" value="intermediate" />
-        <label for="intermediate">Intermediate</label>
-        <input id="proficient" type="radio" name="level" value="proficient" />
-        <label for="proficient">Proficient</label>
-        <input id="advanced" type="radio" name="level" value="advanced" />
-        <label for="advanced">Advanced</label>
-        <input id="expert" type="radio" name="level" value="expert" />
-        <label for="expert">Expert</label>
+      <div class="form-group">
+        <p class="p-label">
+          What do you think your skill level in programming?
+        </p>
+        <label for="novice" class="label-inline"
+          ><input
+            id="novice"
+            class="inline"
+            type="radio"
+            name="level"
+            value="novice"
+            checked
+          />Novice</label
+        >
+        <label for="intermediate" class="label-inline"
+          ><input
+            id="intermediate"
+            class="inline"
+            type="radio"
+            name="level"
+            value="intermediate"
+          />Intermediate</label
+        >
+        <label for="proficient" class="label-inline"
+          ><input
+            id="proficient"
+            class="inline"
+            type="radio"
+            name="level"
+            value="proficient"
+          />Proficient</label
+        >
+        <label for="advanced" class="label-inline"
+          ><input
+            id="advanced"
+            class="inline"
+            type="radio"
+            name="level"
+            value="advanced"
+          />Advanced</label
+        >
+        <label for="expert" class="label-inline"
+          ><input
+            id="expert"
+            class="inline"
+            type="radio"
+            name="level"
+            value="expert"
+          />Expert</label
+        >
       </div>
 
       <!-- Programming Languages -->
-      <div>
-        <p>Which programming languages do you know?</p>
-        <input id="c" type="checkbox" name="languages[]" value="c" />
-        <label for="c">C</label>
-        <input id="c-plus" type="checkbox" name="languages[]" value="c-plus" />
-        <label for="c-plus">C++</label>
-        <input id="c-sharp" type="checkbox" name="languages[]" value="c-sharp" />
-        <label for="c-sharp">C#</label>
-        <input id="python" type="checkbox" name="languages[]" value="python" />
-        <label for="python">Python</label>
-        <input id="java" type="checkbox" name="languages[]" value="java" />
-        <label for="java">Java</label>
-        <input id="javascript" type="checkbox" name="languages[]" value="javascript" />
-        <label for="javascript">Javascript</label>
-        <input id="php" type="checkbox" name="languages[]" value="php" />
-        <label for="php">PHP</label>
-        <input id="php" type="checkbox" name="languages[]" value="php" />
-        <label for="php">PHP</label>
-        <input id="sql" type="checkbox" name="languages[]" value="sql" />
-        <label for="sql">SQL</label>
+      <div class="form-group">
+        <p class="p-label">Which programming languages do you know?</p>
+        <label for="c" class="label-inline"
+          ><input
+            id="c"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="c"
+          />C</label
+        >
+        <label for="c-plus" class="label-inline"
+          ><input
+            id="c-plus"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="c-plus"
+          />C++</label
+        >
+        <label for="c-sharp" class="label-inline"
+          ><input
+            id="c-sharp"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="c-sharp"
+          />C#</label
+        >
+        <label for="python" class="label-inline"
+          ><input
+            id="python"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="python"
+          />Python</label
+        >
+        <label for="java" class="label-inline"
+          ><input
+            id="java"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="java"
+          />Java</label
+        >
+        <label for="javascript" class="label-inline"
+          ><input
+            id="javascript"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="javascript"
+          />Javascript</label
+        >
+        <label for="php" class="label-inline"
+          ><input
+            id="php"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="php"
+          />PHP</label
+        >
+        <label for="sql" class="label-inline"
+          ><input
+            id="sql"
+            class="inline"
+            type="checkbox"
+            name="languages[]"
+            value="sql"
+          />SQL</label
+        >
       </div>
 
-      <!-- Comments or Suggestions -->
-      <div>
-        <label for="comments">Any comments or suggestions?</label>
+      <!-- Answer -->
+      <div class="form-group">
+        <label for="answer">What do you like about programming? Tell us.</label>
         <textarea
-          id="comments"
-          name="comments"
+          id="answer"
+          name="answer"
           cols="30"
           rows="3"
-          placeholder="Enter your comments or suggestions here..."
+          placeholder="Enter your answer here..."
         ></textarea>
       </div>
 
       <!-- Submit -->
-      <input id="submit" type="submit" value="Submit" />
+      <div class="form-group">
+        <input id="submit" type="submit" value="Submit" />
+      </div>
     </form>
   </body>
 </html>
