@@ -12,6 +12,14 @@ This certification focuses on two key languages: HTML (Hypertext Markup Language
 ### 1. Survey Form
 A survey form to collect data from its users.
 
+<a href="https://programming-enthusiast-survey.netlify.app/" target="_blank">
+    <img
+        align="center"
+        src="https://img.shields.io/badge/VIEW%20PROJECT-netlify?style=for-the-badge&logo=Netlify&logoColor=white&labelColor=rgb(37%2C186%2C179)&color=4B6581"
+        alt="Survey Form Project"
+    />
+</a>
+
 
 
 ## Technologies Used
