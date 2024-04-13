@@ -10,7 +10,7 @@ This certification focuses on two key languages: HTML (Hypertext Markup Language
 
 ## Certification Projects
 ### 1. Survey Form
-A survey form to collect data from its users.
+A static survey form to collect data from its users.
 
 <a href="https://programming-enthusiast-survey.netlify.app/" target="_blank">
     <img
