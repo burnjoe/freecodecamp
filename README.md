@@ -15,6 +15,7 @@ In this certification program, I delved into the fundamental languages used by d
 
 ### Certification Projects
 1. [Survey Form](https://programming-enthusiast-survey.netlify.app/)
+2. Tribute Page
 
 
 

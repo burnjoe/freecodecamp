@@ -20,6 +20,9 @@ A static survey form to collect data from its users.
     />
 </a>
 
+### 2. Tribute Page
+A tribute page for a subject of my choice, fictional or real.
+
 
 
 ## Technologies Used
