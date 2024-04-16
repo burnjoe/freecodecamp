@@ -23,6 +23,14 @@ A static survey form to collect data from its users.
 ### 2. Tribute Page
 A tribute page for a subject of my choice, fictional or real.
 
+<a href="#" target="_blank">
+    <img
+        align="center"
+        src="https://img.shields.io/badge/VIEW%20PROJECT-netlify?style=for-the-badge&logo=Netlify&logoColor=white&labelColor=rgb(37%2C186%2C179)&color=4B6581"
+        alt="Survey Form Project"
+    />
+</a>
+
 
 
 ## Technologies Used
